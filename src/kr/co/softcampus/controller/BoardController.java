@@ -25,7 +25,7 @@ public class BoardController {
 	
 	@GetMapping("/modify")
 	public String modify() {
-		return "bard/modify";
+		return "board/modify";
 	}
 	
 	@GetMapping("/delete")
@@ -33,3 +33,11 @@ public class BoardController {
 		return "board/delete";
 	}
 }
+
+
+
+
+
+
+
+

@@ -10,7 +10,6 @@ public class UserController {
 
 	@GetMapping("/login")
 	public String login() {
-		
 		return "user/login";
 	}
 	
@@ -29,3 +28,11 @@ public class UserController {
 		return "user/logout";
 	}
 }
+
+
+
+
+
+
+
+
