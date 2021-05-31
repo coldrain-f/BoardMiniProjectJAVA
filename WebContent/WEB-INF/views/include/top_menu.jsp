@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!-- 컨텍스트 패스를 포함한 절대 경로를 구해준다. -->
-<c:url var="root" value="/" />
+<c:set var="root" value="${pageContext.request.contextPath }/" />
 <!DOCTYPE html>
 <html>
 <head>
